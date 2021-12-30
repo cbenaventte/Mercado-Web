@@ -1,0 +1,21 @@
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/5c57d3ff9a.js" crossorigin="anonymous"></script>
+  
+
+
+  {{>Menu}}
+  <div class='container'>
+
+    {{>Mensaje}}
+
+    <div class='container row'>
+      {{#each productos }}
+
+      {{>Producto}}
+
+      {{/each}}
+    </div>
+
+  </div>
+
